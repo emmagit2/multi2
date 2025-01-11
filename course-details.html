@@ -1,0 +1,1991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta id="meta-title" name="title" content="Course Page">
+  <meta id="meta-description" name="description" content="Learn various courses">
+  <meta id="meta-keywords" name="keywords" content="courses, education, web development, mobile development, UI/UX, Python, Digital Marketing">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MultiBest Ict Solutions">
+    <meta name="twitter:description" content="MultiBest Ict Solutions: Unleash Your Tech Mastery. Elevate your skills with our cutting-edge ICT services and comprehensive courses in Web development, Android app development, cybersecurity, and more. Join MultiBest for an innovative journey towards expertise">
+    <meta name="twitter:image" content="https://i.ibb.co/3483L82/Untitled-design-7-removebg-preview.png">     <!-- Open Graph Meta Tags -->
+     <meta property="og:title" content="MultiBest Ict Solutions">
+     <meta property="og:description" content="MultiBest Ict Solutions: Unleash Your Tech Mastery. Elevate your skills with our cutting-edge ICT services and comprehensive courses in Web development, Android app development, cybersecurity, and more. Join MultiBest for an innovative journey towards expertise">
+     <meta property="og:image" content="https://i.ibb.co/3483L82/Untitled-design-7-removebg-preview.png">
+     <meta property="og:url" content="https://multibestsolutions.com.ng/">
+     <meta property="og:type" content="website">
+    <title>Multibest Ict Solutions - Your Ict Partner</title>
+  <link rel="stylesheet" href="./assets/css/multicore.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+ 
+    .course-image {
+      max-width: 100%;
+      height: auto;
+    }
+    .container_button{
+ background-color: tomato;
+ border-radius: 20px;
+ width: 100%;
+ padding: 10px;
+ display: flex;
+ margin: 0px auto;
+ overflow-x: scroll;
+    }
+    .container_button a{
+ background-color: white;
+ display: inline-block;
+ color: black;
+ margin: 10px;
+ font-size: 14px;
+ font-family: poppins;
+ padding: 8px 20px;
+ border-radius: 10px;
+ text-decoration: none;
+    }
+    .container_button a:hover{
+   
+      color:#ff5d13;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+    }
+   /* General Accordion Styles */
+.accordion23 {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+}
+.accordion-header:hover{
+  background-color: white;
+}
+
+.accordion-button {
+  background-color: tomato;
+  color: white;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Accordion Header Hover Effect */
+.accordion-button:hover {
+  background-color: tomato;
+  color: #ffffff;
+}
+
+/* Open State Styling */
+.accordion-button:not(.collapsed) {
+  background-color: tomato;
+  color: white;
+}
+
+/* Accordion Body Hover Effect */
+.accordion-collapse {
+  background-color: #ffffff;
+  transition: height 0.3s ease;
+}
+#registrationModal{
+  width: 50%;
+}
+
+.accordion-body {
+  padding: 15px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.accordion-body ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.accordion-body ul li {
+  margin-bottom: 8px;
+  color: #555;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* List Item Hover Effect */
+.accordion-body ul li:hover {
+  color: #007bff;
+  transform: translateX(5px); /* Slight slide on hover */
+}
+
+/* Add animation for opening and closing */
+.accordion-collapse.collapsing {
+  transition: height 0.3s ease;
+}
+
+/* Focus Styling for Accessibility */
+.accordion-button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.contains{
+  margin-top: 8%;
+}
+#discountModalLabel1{
+  font-size: 20px;
+  padding: 10px;
+  font-family: poppins;
+}
+
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+  .accordion-button {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .accordion-body {
+    font-size: 0.9rem;
+  }
+  .contains{
+    margin-top: 30%;
+  }
+}
+.navbar-toggler{
+  border:none;
+  outline: none;
+}
+.course-image{
+  border-radius: 15%;
+}
+.course-container{
+  padding: 20px;
+}
+#durationSwitch{
+background-color: tomato;
+outline: none;
+padding: 10px 20px;
+}
+.form-check-label{
+  padding: 3px 12px;
+}  .modal-content {
+            background-color: #ff6347; /* Tomato Red Background */
+            color: white;
+            border-radius: 15px;
+        }
+        .modal-header {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            border: none;
+        }
+        .modal-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            text-align: center;
+        }
+        .modal-footer {
+            text-align: center;
+        }
+
+        .modal-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .discount-text {
+            font-size: 1rem;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .modal-header{
+          position: absolute;
+          top: -10%;
+          width: 15%;
+          right: 0%;
+          z-index: 100000000000000000;
+        
+        }
+        
+ 
+        /* Center the modal */
+        .modal-dialog {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .faq-section {
+            padding: 40px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .faq-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ff6347;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .custom-accordion-button {
+            background-color: #fff;
+            color: #333;
+            font-size: 1.25rem;
+            font-weight: 600;
+            border: none;
+            padding: 15px 30px;
+            text-align: left;
+            width: 100%;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            position: relative;
+        }
+
+        .custom-accordion-button:focus {
+            box-shadow: none;
+        }
+
+        .custom-accordion-button.collapsed {
+            background-color: #f7f7f7;
+        }
+
+        .custom-accordion-button:not(.collapsed) {
+            color: #ff6347;
+            font-weight: bold;
+        }
+
+        .accordion-icon {
+            font-size: 1rem;
+            transition: transform 0.3s ease-in-out;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .accordion-icon.rotate {
+            transform: rotate(180deg);
+        }
+
+        .custom-accordion-item {
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .custom-accordion-header {
+            background-color: #fff;
+            padding: 0;
+        }
+
+        .faq-answer {
+            font-size: 1.1rem;
+            color: #555;
+            padding-left: 20px;
+            padding-top: 10px;
+            margin-top: 10px;
+            opacity: 0;
+            max-height: 0;
+            transition: opacity 0.3s ease, max-height 0.3s ease;
+        }
+
+        .collapse.show .faq-answer {
+            opacity: 1;
+            max-height: 200px;
+        }
+
+        .faq-answer p {
+            margin: 0;
+        }  
+        #discountModal .modal-dialog{
+          width: 30%;
+        }
+     
+        #discountModal .modal-footer{
+          background-color: white;
+        }
+        #discountModal .modal-header button{
+          background-color: white;
+          color: tomato;
+          opacity: 1;
+          border-radius: 50%;
+       padding: 10px;
+          border: none;
+          transition: all 0.3s ease;
+        }
+        #discountModal .modal-header button:hover{
+          background-color: tomato;
+          color: white !important;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+        .btn-close{
+          width: 2em !important;
+        }
+        
+        #registrationModal{
+          margin: 0px auto;
+          width: 100%;
+        }
+        #registrationModal .modal-dialog{
+          position: relative;
+          width: 80%;
+          left: 0%;
+          top: 0%;
+        }
+        #registrationModal .modal-content{
+          background-color: transparent;
+          padding: 20px;
+          border-radius: 20px;
+          border:none;
+        }
+        .modalbody{
+          padding: 30px 20px;
+          background-color: white;
+          width: 40%;
+          border-radius: 20px;
+          color: black;
+          margin: 0px auto;
+        }
+        #registrationModalLabel{
+          padding: 10px;
+          text-align: center;
+          font-family: poppins;
+          text-transform: capitalize;
+          color: tomato;
+        }
+        #registrationModal .modal-header{
+         top: 0%;
+         width: 5%;
+         right: 30%;
+         background-color: transparent;
+        }
+        #registrationModal .modal-header button{
+          background-color: tomato;
+          opacity: 1;
+          padding: 13px 20px;
+          border-radius: 50px;
+        }
+@media screen and (max-width: 540px) {
+  #registrationModal .modal-dialog{
+    left: 8%;
+  }
+  #registrationModal .modal-header{
+    right: 8%;
+    top: -2%;
+  }
+  .modalbody{
+    width: 100%;
+  }
+  #discountModal .modal-dialog {
+    width: 75%;
+    left: 16%;
+    top: 25%;
+  }
+  #discountModal .modal-header{
+    width: 20%;
+  }
+  #course-title{
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+    border-left: 6px solid tomato;
+    border-radius: 5px;
+    padding-top: 20px;
+  }
+
+}
+        </style>
+</head>
+<body>
+  <div class="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top py-3 d-block shadow-transition" data-bs-navbar-on-scroll="data-navbar-on-scroll" style="background-image: none; transition: background-color 0.35s ease 0s;">
+      <div class="container">
+        <a class="navbar-brand" href="#home" style="color:white;">
+          <img src="Untitled_design__7_-removebg-preview.png" style="width: 100%; height: 40px;">
+        </a>
+        <button style="color: rgba(255, 187, 0, 0.815);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="fa fa-navicon" style="font-size:20px;"></span>
+        </button>
+        <div class="navbar-collapse mt-4 mt-lg-0 collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto pt-lg-0 font-base">
+            <li class="nav-item px-2"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="index.html#about_us">About us</a></li>
+            <li class="nav-item px-2 dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html#services" data-bs-toggle="dropdown">Our Services<span><i class="fa fa-caret"></i></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="index.html#kids_zone" class="dropdown-item px-4" style="text-decoration: none;">Kids Zone <i class="fa fa-angry"></i></a></li>
+                <li><a href="pageconstruct.html" class="dropdown-item px-4" style="text-decoration: none;">IT Services</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2"><a class="nav-link" href="index.html#Course">Course</a></li>
+            <li class="nav-item px-2"><a class="nav-link" href="pageconstruct.html">Our blog</a></li>
+          </ul>
+          <div class="dropdown d-none d-lg-block">
+            <div class="dropdown-menu dropdown-menu-end p-0 rounded" aria-labelledby="dropdownMenuButton1" style="top:55px"></div>
+          </div>
+          <div class="social_media1" style="width: 30%;">
+            <a href="https://web.facebook.com/mcisolution"><img src="icons/pngwing.com (3).png" style="width: 30px"></a>
+            <a href="https://www.youtube.com/@multibest_ict_solution"><img src="icons/pngwing.com (1).png" style="width: 30px"></a>
+            <span>#ibomtechuplift</span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="container contains ">
+    <!-- Course Buttons -->
+    <div class="mb-4 text-center container_button">
+      <a href="course-details.html?course=web-development" class="">Web Development</a>
+      <a href="course-details.html?course=mobile-development">Mobile Development</a>
+      <a href="course-details.html?course=computer-network">Computer Network</a>
+      <a href="course-details.html?course=cybersecurity">Cybersecurity</a>
+      <a href="course-details.html?course=ui-ux-design">UI/UX Design</a>
+      <a href="course-details.html?course=python-development">Python Development</a>
+      <a href="course-details.html?course=digital-marketing">Digital Marketing</a> <!-- New course button -->
+    </div>
+
+    <div class="row course-container">
+      <!-- Course Image -->
+      <div class="col-md-6 text-center">
+        <img id="course-image" class="course-image" src="" alt="Course Image">
+      </div>
+
+      <!-- Course Details -->
+      <div class="col-md-6">
+        <h1 id="course-title">Loading Course...</h1>
+        <p id="course-description">Course description will appear here.</p>
+
+        <!-- Duration Switch -->
+        <div class="form-check form-switch mb-3" id="duration-switch-container">
+          <input class="form-check-input" type="checkbox" id="durationSwitch">
+          <label class="form-check-label" for="durationSwitch" id="duration-label">Change Duration</label>
+        </div>
+
+        <p><strong>Duration:</strong> <span id="course-duration">3 months</span></p>
+        <p><strong>Price:</strong> ₦<span id="course-price">0</span></p>
+
+        <h3>Course Outline</h3>
+        <div class="accordion" id="course-outline">
+          <!-- Accordion items will be inserted dynamically here -->
+        </div>
+        <button type="button" class="btn btn-outline-primary shadow-lg rounded-pill px-4 py-2" data-bs-toggle="modal" data-bs-target="#registrationModal">
+          Register Now
+      </button>
+      </div>
+    </div>
+ 
+  </div>
+  <section class="faq-section">
+    <h1 class="faq-title">Frequently Asked Questions</h1> <!-- SEO Optimized with H1 -->
+
+    <div class="custom-accordion" id="faqAccordion">
+        <!-- Question 1: Certification -->
+        <div class="custom-accordion-item">
+            <h2 class="custom-accordion-header" id="heading1">
+                <button class="custom-accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                    1. Do we provide certification on course completion?
+                    <span class="accordion-icon ms-auto">▼</span>
+                </button>
+            </h2>
+            <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+                <div class="faq-answer">
+                    <p>Yes, we provide certification upon successful completion of the course. Our certificates are recognized and can help you in your career journey.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Question 2: 3-month vs 6-month Program -->
+        <div class="custom-accordion-item">
+            <h2 class="custom-accordion-header" id="heading2">
+                <button class="custom-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    2. Which is preferable: 3-month or 6-month program?
+                    <span class="accordion-icon ms-auto">▼</span>
+                </button>
+            </h2>
+            <div id="collapse2" class="collapse" aria-labelledby="heading2" data-bs-parent="#faqAccordion">
+                <div class="faq-answer">
+                    <p>We recommend the 6-month program for individuals who are seeking to not only learn the skills but also leverage them for job opportunities. The extended program offers a deeper dive into each topic, with more hands-on experience and expertise.</p>
+                    <p>For students or beginners, we recommend starting with the 3-month program to build a solid foundation and gradually progress to advanced topics.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Question 3: Is the class schedule flexible for working professionals? -->
+        <div class="custom-accordion-item">
+            <h2 class="custom-accordion-header" id="heading3">
+                <button class="custom-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    3. Is the class schedule flexible for working professionals?
+                    <span class="accordion-icon ms-auto">▼</span>
+                </button>
+            </h2>
+            <div id="collapse3" class="collapse" aria-labelledby="heading3" data-bs-parent="#faqAccordion">
+                <div class="faq-answer">
+                    <p>Yes, we understand the challenges of balancing work and study. Our classes are designed to be flexible, allowing you to attend sessions based on your availability.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Question 4: Can I pay in installments? -->
+        <div class="custom-accordion-item">
+            <h2 class="custom-accordion-header" id="heading4">
+                <button class="custom-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    4. Can I pay in installments?
+                    <span class="accordion-icon ms-auto">▼</span>
+                </button>
+            </h2>
+            <div id="collapse4" class="collapse" aria-labelledby="heading4" data-bs-parent="#faqAccordion">
+                <div class="faq-answer">
+                    <p>Yes, we offer flexible payment options. You can pay in 3 installments to make it easier for you to manage your finances. Just contact us to arrange the installment plan that suits you best.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- New Question 5: Do you offer an online course? -->
+        <div class="custom-accordion-item">
+            <h2 class="custom-accordion-header" id="heading5">
+                <button class="custom-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    5. Do you offer an online course?
+                    <span class="accordion-icon ms-auto">▼</span>
+                </button>
+            </h2>
+            <div id="collapse5" class="collapse" aria-labelledby="heading5" data-bs-parent="#faqAccordion">
+                <div class="faq-answer">
+                    <p>Currently, we are focusing on onsite courses. However, we are working hard to provide an online class in the near future. Stay tuned for updates on when we will offer online learning options!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <footer
+  class="text-center text-lg-start text-white"
+  style="background-color: #1c2331;"
+    >
+
+<section
+     class="d-flex justify-content-between p-4 col-md-8" 
+     style="background-color: #000000f6; margin: 0px auto; border-radius: 5px;"
+     >
+
+<div class="me-5" style="width: 100%;">
+<div class="row justify-content-center">
+  <div class="col-md-5"> 
+    <span>Get connected with us on social platforms:</span>  
+  </div>
+  
+  <div class="col-md-5">
+    <div>
+<a href="https://web.facebook.com/mcisolution" class=" mr-3 blue">
+<img src="icons/pngwing.com (3).png" style="width: 50px">
+</a>
+<a href="" class=" mr-3 red">
+<img src="icons/pngwing.com.png" style="width: 40px">
+</a>
+<a href="https://www.youtube.com/channel/UCqDb03IzaWdq1KPRQBqnN-A" class=" mr-3 red">
+<img src="icons/pngwing.com (1).png" style="width: 40px">
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+</section>
+<!-- FAQ Section -->
+
+
+
+<section class="">
+<div class="container text-center text-md-start mt-5">
+
+<div class="row mt-3">
+ 
+  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+ 
+    <h6 class="text-uppercase fw-bold">multicore ict Solutions</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #fffffff6; height: 2px"
+        />
+    <p>
+      We are Edu-tech company with the vision of 
+      providing quality ICT services and improving ICT education in africa..</p>
+      <p>
+        Our core focus is broadening the potential needs of ai,
+          digital services and coding in this tech driven world...
+          join us today and begin your journey in tech world.
+     
+     
+    </p>
+  </div>
+ 
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    
+    <h6 class="text-uppercase fw-bold">our services</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color:#fffffff6; height: 2px"
+        />
+    <p>
+      <a href="#!" class="text-white" style="text-transform: capitalize;">Web Development</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white" style="text-transform: capitalize;">content creation</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white" style="text-transform: capitalize;">social media branding</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white" style="text-transform: capitalize;">computer consultancy</a>
+    </p>
+  </div>
+
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+    <h6 class="text-uppercase fw-bold">Useful links</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #fffffff6; height: 2px"
+        />
+    <p>
+      <a href="#!" class="text-white">Register with us</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">Become an Affiliate</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">About Us</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">Our Courses</a>
+    </p>
+  </div>
+ 
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+    <h6 class="text-uppercase fw-bold">Contact</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #fffffff6; height: 2px"
+        />
+    <p><i class="fa fa-home mr-3"></i> 34 Umoren Street, Uyo ,AKS</p>
+    <p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
+    <p><i class="fa fa-phone mr-3"></i> (+234) 905 587 1577</p>
+    <p><i class="fa fa-whatsapp mr-3"></i> (+234) 911 289 4337</p>
+  </div>
+
+</div>
+</div>
+
+</section>
+
+<div
+ class="text-center p-3"
+ style="background-color: rgba(0, 0, 0, 0.2)"
+ >
+© 2023 Copyright:
+<a class="text-white" href="#"
+ >multicore ict solution</a
+>
+</div>
+<div class="modal fade" id="discountModal" tabindex="-1" aria-labelledby="discountModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+      </div>
+          <div class="modal-body">
+              <div>
+                <h5 class="modal-title" id="discountModalLabel1"> 🎉 Special Offer Just for You!</h5>
+                  <p class="discount-text"> Congratulations! You’re eligible for a 30% discount on any course!</p>
+              </div>
+          </div>
+          
+      </div>
+  </div>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content custom-modal">
+            <div class=" text-white modal_down modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modalbody">
+                <!-- Registration Form -->
+                <h5 class="modal-title" id="registrationModalLabel">Course Registration</h5>
+
+                <form id="registrationForm" action="#" method="POST" onsubmit="return validateForm()">
+                    <div class="mb-3">
+                        <label for="fullName" class="form-label">Full Name</label>
+                        <input type="text" class="form-control custom-input" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                        <div class="invalid-feedback">Please enter your full name.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control custom-input" id="email" name="email" placeholder="Enter your email" required>
+                        <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control custom-input" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+                        <div class="invalid-feedback">Please enter a valid phone number (10 digits).</div>
+                    </div>
+
+                    <!-- Time Schedule -->
+                    <div class="mb-3">
+                        <label for="timeSchedule" class="form-label">Preferred Time Schedule (Optional)</label>
+                        <input type="time" class="form-control custom-input" id="timeSchedule" name="timeSchedule">
+                        <div class="invalid-feedback">Please select a valid time.</div>
+                    </div>
+
+                    <!-- Comments Section -->
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">Additional Comments (Optional)</label>
+                        <textarea class="form-control custom-textarea" id="comments" name="comments" rows="3" placeholder="Any additional information?"></textarea>
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn  btn-lg custom-btn" style="background-color: tomato; color:white;font-family: poppins;">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script>
+    const courseData = {
+      "web-development": {
+        title: "Web Development",
+        description: "Learn to build dynamic, responsive websites and web applications. This course covers front-end and back-end development, focusing on HTML, CSS, JavaScript, and popular frameworks like React and Node.js. You’ll also explore web design principles, user experience (UX), and deploy your projects on various platforms. Whether you're just starting or aiming to advance your web development skills, this course will guide you through creating modern, interactive, and fully functional websites.",
+        keywords: "Web Development, HTML, CSS, JavaScript, Front-End Development, Back-End Development, React, Node.js, Web Design, Responsive Design, Full Stack Development, Web Development Course, Web Application Development, Front-End Frameworks, Back-End Frameworks, Database Integration, Web Hosting, Web Deployment, UX Design, UI Design, JavaScript Frameworks, React.js, Node.js Development, Web Development Tools, CSS Frameworks, Web APIs, Web Development Tutorials, Full Stack Developer, HTML5, CSS3, Web Development Best Practices, Web App Development",
+        image: "images/webdev.jpeg",
+        outlines: {
+          "3month": [
+    { 
+      title: "Getting Started with Web Development", 
+      items: ["Understanding the Web: How Websites Work", "Setting Up Your Development Environment", "Introduction to HTML: Structure of a Web Page"] 
+    },
+    { 
+      title: "Designing with CSS", 
+      items: ["CSS Basics: Syntax and Selectors", "Styling Text and Colors", "Layouts with Flexbox and Grid"] 
+    },
+    { 
+      title: "Making Web Pages Interactive with JavaScript", 
+      items: ["Introduction to JavaScript: Basics and Syntax", "Manipulating the DOM", "Events and User Interaction"] 
+    },
+    { 
+      title: "PHP Basics", 
+      items: ["Getting Started with PHP: Basics and Syntax", "Working with Variables and Arrays", "Handling Forms and User Input"] 
+    },
+    { 
+      title: "Integrating Databases", 
+      items: ["Introduction to MySQL: Storing Data", "Connecting PHP to MySQL", "Performing CRUD Operations"] 
+    },
+    { 
+      title: "Building Dynamic Websites", 
+      items: ["User Authentication: Login and Registration", "Managing Sessions and Cookies", "Uploading and Handling Files"] 
+    },
+    { 
+      title: "Capstone Project", 
+      items: ["Planning and Designing a Web Application", "Building a Functional Blog or To-Do List App", "Deploying the Project Online"] 
+    }
+  ],
+  "6month": [
+    { 
+      title: "HTML and CSS Mastery", 
+      items: [
+        "Semantic HTML and Accessibility",
+        "Advanced CSS: Pseudo-classes and Pseudo-elements",
+        "CSS Animations and Transitions",
+        "Responsive Design with Media Queries"
+      ] 
+    },
+    { 
+      title: "JavaScript Advanced Concepts", 
+      items: [
+        "ES6+ Features: Let, Const, Arrow Functions",
+        "Promises, Async/Await, and Fetch API",
+        "Working with JSON and APIs",
+        "Debugging and Error Handling in JavaScript"
+      ] 
+    },
+    { 
+      title: "Advanced PHP", 
+      items: [
+        "Object-Oriented PHP (OOP)",
+        "Working with PHP Classes and Objects",
+        "Advanced Functions and File Handling",
+        "Error and Exception Handling"
+      ] 
+    },
+    { 
+      title: "MySQL Integration", 
+      items: [
+        "Designing a Relational Database",
+        "Complex Database Queries (Joins, Group By, Aggregate Functions)",
+        "Connecting PHP with MySQL using PDO",
+        "Database Security and Prepared Statements"
+      ] 
+    },
+    { 
+      title: "Server-Side Logic", 
+      items: [
+        "Session Management and Cookies",
+        "Building Secure Authentication Systems",
+        "Uploading and Validating Files",
+        "Sending Emails with PHP Mailer"
+      ] 
+    },
+    { 
+      title: "Building Full-Stack Web Applications", 
+      items: [
+        "Planning and Architecting a Web App",
+        "Implementing CRUD Operations with PHP and MySQL",
+        "User Roles and Permissions",
+        "Integrating a Payment Gateway"
+      ] 
+    },
+    { 
+      title: "Web App Deployment", 
+      items: [
+        "Understanding Hosting and Server Types",
+        "Configuring and Deploying a Web App on a Live Server",
+        "SSL Certificate and Domain Setup",
+        "Basic Troubleshooting and Maintenance"
+      ] 
+    },
+    { 
+      title: "Capstone Project", 
+      items: [
+        "Project Proposal and Planning",
+        "Building a Multi-User Blog or E-Commerce Platform",
+        "Testing and Debugging",
+        "Final Presentation and Certification of Completion"
+      ] 
+    }
+  ]
+        },
+        price: { "3month": "80,000", "6month": "150,000" }
+      },
+      "mobile-development": {
+        title: "Mobile Development",
+        description: "Learn to develop mobile apps for Android and iOS using React Native. This course covers the fundamentals of React Native, enabling you to create cross-platform apps with a single codebase. You'll explore building user interfaces, handling navigation, working with APIs, and deploying apps to the App Store and Google Play. Whether you're a beginner or looking to enhance your skills, this course will guide you through creating efficient and user-friendly mobile applications.",
+        keywords: "React Native, Android, iOS, Mobile Development, Cross-Platform Apps, Mobile App Development, React Native Course, Mobile App UI, Mobile Navigation, API Integration, App Deployment, App Store, Google Play, React Native for Beginners, Mobile App Design, React Native Components, Mobile Development Tools, Push Notifications, React Native Features, Mobile App Testing, Mobile App Performance, Mobile UI/UX, Mobile Development with React Native, Mobile App Debugging, JavaScript for Mobile Apps, React Native for Android, React Native for iOS",
+        image: "images/mobile.jpeg",
+        outlines: {
+          "3month": [
+    { 
+      title: "JavaScript Basics", 
+      items: [
+        "Introduction to JavaScript: Variables, Data Types, and Operators",
+        "Functions, Loops, and Control Flow",
+        "Understanding ES6+ Features: Arrow Functions, Template Literals, and Destructuring"
+      ] 
+    },
+    { 
+      title: "React Native Basics", 
+      items: [
+        "Introduction to React Native and Setting Up the Environment",
+        "Understanding Components and JSX",
+        "Building Your First App with Navigation"
+      ] 
+    },
+    { 
+      title: "State Management", 
+      items: [
+        "Using React Hooks (useState, useEffect)",
+        "Managing Global State with Context API",
+        "Introduction to Redux Toolkit"
+      ] 
+    },
+    { 
+      title: "Working with APIs", 
+      items: [
+        "Fetching Data with Fetch API and Axios",
+        "Displaying and Updating Data in Components",
+        "Error Handling and Loading States"
+      ] 
+    },
+    { 
+      title: "Styling in React Native", 
+      items: [
+        "Using Flexbox for Layouts",
+        "Creating Responsive and Adaptive Designs",
+        "Using Styled Components for Consistent UI"
+      ] 
+    },
+    { 
+      title: "Deploying an App", 
+      items: [
+        "Preparing Your App for Production",
+        "Publishing on Google Play Store",
+        "Publishing on Apple App Store"
+      ] 
+    }
+  ],
+  "6month": [
+    { 
+      title: "JavaScript Fundamentals", 
+      items: [
+        "Introduction to JavaScript: Variables, Data Types, and Operators",
+        "Control Flow: Conditional Statements and Loops",
+        "ES6+ Features: Arrow Functions, Template Literals, Destructuring, and Modules",
+        "Asynchronous JavaScript: Callbacks, Promises, and Async/Await"
+      ] 
+    },
+    { 
+      title: "React Native Basics", 
+      items: [
+        "Introduction to React Native and Setting Up the Environment",
+        "Understanding Components, Props, and JSX",
+        "State and Lifecycle Methods",
+        "Building Your First React Native App"
+      ] 
+    },
+    { 
+      title: "Styling and UI Design", 
+      items: [
+        "Using Flexbox for Layouts",
+        "Responsive Design with Dimensions and PixelRatio",
+        "Creating Custom Components and Reusable Styles",
+        "Introduction to Styled Components and UI Libraries (e.g., NativeBase, React Native Paper)"
+      ] 
+    },
+    { 
+      title: "State Management", 
+      items: [
+        "Managing State with useState and useReducer",
+        "Context API for Global State Management",
+        "Introduction to Redux Toolkit and Middleware (Thunk, Saga)",
+        "Best Practices for State Management"
+      ] 
+    },
+    { 
+      title: "Working with APIs and Data", 
+      items: [
+        "Fetching Data with Fetch API and Axios",
+        "Handling Data with FlatList and SectionList",
+        "Error Handling and Loading States",
+        "Integrating Third-Party APIs (e.g., Firebase, OpenWeather)"
+      ] 
+    },
+    { 
+      title: "Advanced React Native Concepts", 
+      items: [
+        "Navigation with React Navigation (Stack, Tab, and Drawer Navigation)",
+        "Using Native Device Features: Camera, Geolocation, and Notifications",
+        "Working with Permissions in Android and iOS",
+        "Animations with React Native Reanimated and Gesture Handler"
+      ] 
+    },
+    { 
+      title: "Testing and Debugging", 
+      items: [
+        "Debugging React Native Apps with Flipper and React Developer Tools",
+        "Unit Testing with Jest and React Native Testing Library",
+        "End-to-End Testing with Detox",
+        "Best Practices for Debugging and Testing"
+      ] 
+    },
+    { 
+      title: "App Deployment and Optimization", 
+      items: [
+        "Optimizing Performance in React Native Apps",
+        "Preparing Your App for Production",
+        "Publishing to Google Play Store and Apple App Store",
+        "Continuous Integration/Delivery (CI/CD) for React Native Apps"
+      ] 
+    },
+    { 
+      title: "Capstone Project", 
+      items: [
+        "Project Proposal and Planning",
+        "Building a Real-World App (e.g., E-Commerce, Social Media, or Task Manager)",
+        "Implementing Authentication and Data Storage",
+        "Final Presentation and Certification of Completion"
+      ] 
+    }
+  ]
+        },
+        price: { "3month": "100,000", "6month": "180,000" }
+      },
+      "computer-network": {
+        title: "Computer Network",
+        description: "Learn the fundamentals of computer networking, protocols, and security. This course covers the core concepts of networking, including network layers, data transmission, TCP/IP protocols, and the architecture of Local Area Networks (LAN) and Wide Area Networks (WAN). You will also explore network security, including firewalls, encryption, and common vulnerabilities. By the end of this course, you'll have the skills to configure, manage, and secure networks effectively.",
+        keywords: "Networking, Protocols, TCP/IP, LAN, WAN, Network Security, Network Configuration, Computer Networks, Networking Basics, IP Addressing, Subnetting, Routing, Switching, Firewalls, VPNs, Encryption, Network Topologies, Wireless Networks, LAN Setup, WAN Setup, Network Monitoring, Network Troubleshooting, Cybersecurity, Network Administration, Network Protocols, Data Transmission, Packet Switching, Network Security Protocols, Network Devices, Network Security in Uyo, Network Security in Akwa Ibom",
+        image: "icons/cybersecurity.svg",
+        outlines: {
+          "3month": [
+    { 
+      title: "Introduction to Computer Networks", 
+      items: [
+        "Overview of Networking Concepts",
+        "Types of Networks (LAN, WAN, MAN, PAN)",
+        "Network Topologies and Their Use Cases",
+        "Hands-On: Simulating Simple Network Topologies in Packet Tracer"
+      ] 
+    },
+    { 
+      title: "The OSI and TCP/IP Models", 
+      items: [
+        "Introduction to OSI Model and Layers",
+        "Detailed Study of Each OSI Layer with Protocols",
+        "TCP/IP Protocol Suite and Its Layers",
+        "Practical: Mapping OSI Layers to TCP/IP Using Wireshark"
+      ] 
+    },
+    { 
+      title: "Data Transmission and Media", 
+      items: [
+        "Analog vs Digital Data Transmission",
+        "Transmission Media (Wired and Wireless)",
+        "Error Detection and Correction Techniques",
+        "Lab: Configuring a Network Using Different Media in Packet Tracer"
+      ] 
+    },
+    { 
+      title: "IP Addressing and Subnetting", 
+      items: [
+        "Understanding IP Addressing (IPv4 and IPv6)",
+        "Subnetting Concepts (Basics)",
+        "CIDR (Classless Inter-Domain Routing)",
+        "Practical: Subnetting a Network Using Packet Tracer"
+      ] 
+    },
+    { 
+      title: "Networking Protocols", 
+      items: [
+        "Application Layer Protocols (HTTP, FTP, SMTP, DNS)",
+        "Transport Layer Protocols (TCP, UDP)",
+        "DNS and DHCP Configuration",
+        "Practical: Configuring DNS and DHCP on a Virtual Network"
+      ] 
+    },
+    { 
+      title: "Basic Network Security", 
+      items: [
+        "Identifying Network Threats and Vulnerabilities",
+        "Basic Encryption (SSL/TLS, IPSec)",
+        "Firewalls: Configuring Basic Network Protection",
+        "Practical: Setting Up Basic Firewall Rules in Packet Tracer"
+      ] 
+    },
+    { 
+      title: "Wireless Networking", 
+      items: [
+        "Introduction to Wireless Networking (Wi-Fi Standards)",
+        "Configuring Access Points and Wireless Security",
+        "Practical: Setting Up a Basic Wireless Network in Packet Tracer"
+      ] 
+    },
+    { 
+      title: "Network Troubleshooting", 
+      items: [
+        "Using Network Troubleshooting Tools (Ping, Traceroute, nslookup)",
+        "Common Network Issues and Resolutions",
+        "Lab: Troubleshooting Network Issues in Virtual Labs"
+      ] 
+    },
+    { 
+      title: "Server Configuration Basics", 
+      items: [
+        "Introduction to Server Roles",
+        "Configuring Basic Server Services (DHCP, DNS)",
+        "Installing and Configuring Windows Server for Network Services",
+        "Practical: Setting Up a DHCP and DNS Server in a Virtual Network"
+      ] 
+    },
+    { 
+      title: "CompTIA Network+ Exam Preparation", 
+      items: [
+        "Study Guides for CompTIA Network+ Certification",
+        "Practice Exam and Review",
+        "Final Exam: Hands-On Practical Networking Test"
+      ] 
+    }
+  ],
+ "6month": [
+    { 
+      title: "Introduction to Computer Networks", 
+      items: [
+        "Overview of Networking Concepts",
+        "Types of Networks (LAN, WAN, MAN, PAN)",
+        "Network Topologies and Their Use Cases",
+        "Hands-On: Simulating Network Topologies in Cisco Packet Tracer"
+      ] 
+    },
+    { 
+      title: "The OSI and TCP/IP Models", 
+      items: [
+        "Introduction to OSI Model and Layers",
+        "Detailed Study of Each OSI Layer with Protocols",
+        "TCP/IP Protocol Suite and Its Layers",
+        "Practical: Mapping OSI Layers to TCP/IP Using Wireshark"
+      ] 
+    },
+    { 
+      title: "Data Transmission and Media", 
+      items: [
+        "Analog vs Digital Data Transmission",
+        "Transmission Media (Wired and Wireless)",
+        "Error Detection and Correction Techniques",
+        "Lab: Configuring a Network Using Different Media in Packet Tracer"
+      ] 
+    },
+    { 
+      title: "IP Addressing and Subnetting", 
+      items: [
+        "Understanding IP Addressing (IPv4 and IPv6)",
+        "Subnetting and Supernetting Concepts",
+        "CIDR (Classless Inter-Domain Routing)",
+        "Practical: Subnetting a Network Using Packet Tracer"
+      ] 
+    },
+    { 
+      title: "Routing and Switching", 
+      items: [
+        "Static and Dynamic Routing Protocols (RIP, OSPF, BGP)",
+        "Introduction to Switching and VLANs",
+        "Inter-VLAN Routing and Spanning Tree Protocol",
+        "Lab: Configuring Routers and Switches in GNS3"
+      ] 
+    },
+    { 
+      title: "Networking Protocols", 
+      items: [
+        "Application Layer Protocols (HTTP, FTP, SMTP, DNS)",
+        "Transport Layer Protocols (TCP, UDP)",
+        "DNS and DHCP Configuration",
+        "Practical: Configuring DNS and DHCP on a Virtual Network"
+      ] 
+    },
+    { 
+      title: "Network Security Basics", 
+      items: [
+        "Identifying Network Threats and Vulnerabilities",
+        "Encryption and Firewalls (SSL/TLS, IPSec)",
+        "Virtual Private Networks (VPNs)",
+        "Lab: Configuring Firewall Rules and VPNs in Packet Tracer"
+      ] 
+    },
+    { 
+      title: "Wireless and Mobile Networking", 
+      items: [
+        "Introduction to Wireless Networking (Wi-Fi Standards)",
+        "Configuring Access Points and Wireless Security",
+        "Mobile Networking Concepts (3G, 4G, 5G)",
+        "Hands-On: Setting Up a Wireless Network in Packet Tracer"
+      ] 
+    },
+    { 
+      title: "Network Troubleshooting", 
+      items: [
+        "Using Tools Like Ping, Traceroute, and Wireshark",
+        "Common Network Issues and Their Resolutions",
+        "Performance Optimization Techniques",
+        "Lab: Analyzing Network Traffic with Wireshark"
+      ] 
+    },
+    { 
+      title: "Emerging Networking Trends", 
+      items: [
+        "Software-Defined Networking (SDN)",
+        "Cloud Networking and Virtualization",
+        "IoT Networking Protocols and Architectures",
+        "Practical: Simulating IoT Devices in Packet Tracer"
+      ] 
+    },
+    { 
+      title: "Server Configuration and Thin Client Setup", 
+      items: [
+        "Introduction to Server Roles and Types (Web, File, DHCP, DNS, etc.)",
+        "Setting up a Windows Server for Network Services",
+        "Installing and Configuring Active Directory",
+        "Practical: Configuring Server for File Sharing and Printing Services",
+        "Introduction to Thin Clients and Their Role in Network",
+        "Setting Up Thin Clients to Connect to Network Resources",
+        "Configuring Terminal Services and RDP for Thin Client Access",
+        "Practical: Setting Up a Thin Client to Access a Windows Server via RDP"
+      ] 
+    },
+    { 
+      title: "Capstone Project and CompTIA Network+ Exam Preparation", 
+      items: [
+        "Design and Deploy a Secure Office Network",
+        "Implement Routing, VLANs, and Access Points",
+        "Network Traffic Monitoring and Troubleshooting",
+        "Preparation for CompTIA Network+ Exam: Study Guides and Practice Exams",
+        "Final Exam: Hands-On Practical Networking Test"
+      ] 
+    }
+  ]
+        },
+        price: { "3month": "70,000", "6month": "130,000" }
+      },
+      "python-development": {
+        title: "Python Development",
+        description: "Master Python programming from basics to advanced concepts. This course covers essential Python skills, including data structures, object-oriented programming, and web development. You'll also dive into frameworks like Django and Flask, and learn how to build robust, scalable applications. Whether you're a beginner or looking to enhance your Python skills, this course will equip you with the knowledge to develop powerful applications and solve complex problems.",
+        keywords: "Python, Python Programming, Data Structures, Object-Oriented Programming, Django, Flask, Python for Web Development, Python for Beginners, Advanced Python, Python Algorithms, Python Projects, Web Application Development, Backend Development, Python Frameworks, Python Database Integration, REST APIs, Python Scripting, Full Stack Development with Python, Python Automation, Python for Data Science, Python Tutorials, Programming with Python, Python Software Development, Python Development Course, Build Applications with Python, Learn Python, Python for Web Apps, Python for Backend",
+        image: "images/pycharm.jpg",
+        outlines: {
+          "3month": [
+    { 
+      title: "Introduction to Python for Web Development", 
+      items: [
+        "Overview of Python Programming",
+        "Setting Up Python Environment",
+        "Basic Python Syntax (Variables, Data Types, Functions)",
+        "Hands-On: Writing Your First Python Script"
+      ] 
+    },
+    { 
+      title: "Web Development Basics with Flask", 
+      items: [
+        "Introduction to Web Development and HTTP",
+        "Flask Framework Overview",
+        "Creating Simple Web Pages with Flask",
+        "Routing and Handling HTTP Requests",
+        "Hands-On: Building Your First Flask Application"
+      ] 
+    },
+    { 
+      title: "Templates and Forms with Flask", 
+      items: [
+        "Using Jinja Templates in Flask",
+        "Creating Dynamic Web Pages with Templates",
+        "Handling Forms in Flask (GET and POST Methods)",
+        "Validating and Processing Form Data",
+        "Hands-On: Building a Contact Form"
+      ] 
+    },
+    { 
+      title: "Databases and Flask", 
+      items: [
+        "Introduction to Databases (SQL vs NoSQL)",
+        "Using SQLite with Flask",
+        "Creating and Interacting with Database Tables",
+        "Implementing CRUD Operations (Create, Read, Update, Delete)",
+        "Hands-On: Building a Simple To-Do List App with Database"
+      ] 
+    },
+    { 
+      title: "User Authentication with Flask", 
+      items: [
+        "Understanding Authentication and Authorization",
+        "Setting Up User Registration and Login",
+        "Using Flask-Login for Session Management",
+        "Securing User Data with Hashing Passwords",
+        "Hands-On: Implementing User Authentication in a Web App"
+      ] 
+    },
+    { 
+      title: "Introduction to Django", 
+      items: [
+        "Overview of Django Framework",
+        "Setting Up a Django Project",
+        "Understanding Django MVC (Model-View-Controller)",
+        "Creating Views and Templates in Django",
+        "Hands-On: Building a Basic Django Application"
+      ] 
+    },
+    { 
+      title: "Django Models and Database Integration", 
+      items: [
+        "Defining Models in Django",
+        "Migrations and Database Schemas",
+        "Working with Django ORM (Object-Relational Mapping)",
+        "Performing CRUD Operations in Django",
+        "Hands-On: Building a Blog App with Django"
+      ] 
+    },
+    { 
+      title: "Django Forms and Validation", 
+      items: [
+        "Handling Forms in Django",
+        "Form Validation and Error Handling",
+        "Working with ModelForms",
+        "Hands-On: Building a Registration Form with Django"
+      ] 
+    },
+    { 
+      title: "Django Authentication and Deployment", 
+      items: [
+        "User Authentication in Django (Login, Register, Logout)",
+        "Setting Up Admin Panel in Django",
+        "Deploying Django Application to Heroku",
+        "Final Hands-On: Deploying a Web App Built with Django"
+      ] 
+    },
+    { 
+      title: "Project and Certification", 
+      items: [
+        "Capstone Project: Build a Full-Stack Web Application",
+        "Integrating Python with Frontend (HTML, CSS, JavaScript)",
+        "Final Review and Exam",
+        "Certification of Completion"
+      ] 
+    }
+  ],
+  "6month": [
+    { 
+      title: "Advanced Python Fundamentals", 
+      items: [
+        "Advanced Python Data Structures (Lists, Dictionaries, Sets)",
+        "Working with Python Libraries (NumPy, Pandas)",
+        "Object-Oriented Programming (OOP) in Python",
+        "Error Handling and Debugging Techniques",
+        "Hands-On: Building an OOP-based Python Application"
+      ] 
+    },
+    { 
+      title: "Flask Web Framework Advanced Concepts", 
+      items: [
+        "Advanced Routing in Flask",
+        "Flask Blueprints for Organizing Projects",
+        "Flask Middleware and Request Hooks",
+        "Working with Flask Extensions (Flask-WTF, Flask-SQLAlchemy)",
+        "Hands-On: Building a Multi-Page Flask Web App"
+      ] 
+    },
+    { 
+      title: "Advanced Flask Project Development", 
+      items: [
+        "Building RESTful APIs with Flask",
+        "Connecting Flask with External APIs",
+        "Implementing Authentication with JWT (JSON Web Tokens)",
+        "Building a Blog with Multiple Features (User Registration, Authentication, Posts)",
+        "Hands-On: Building a RESTful API and Integrating External APIs"
+      ] 
+    },
+    { 
+      title: "Django for Full-Stack Web Development", 
+      items: [
+        "Deep Dive into Django (Models, Views, Templates)",
+        "Setting Up Django Admin and Customizing It",
+        "Form Handling in Django (Form Classes, ModelForms)",
+        "Django QuerySets and Advanced ORM",
+        "Hands-On: Building a Blog App with User Profiles"
+      ] 
+    },
+    { 
+      title: "Django Authentication and Permissions", 
+      items: [
+        "User Authentication in Django (Login, Logout, Registration)",
+        "Setting Up Role-Based Access Control (RBAC)",
+        "Using Django Rest Framework for API Authentication",
+        "Handling Permissions with Django Rest Framework (DRF)",
+        "Hands-On: Implementing User Authentication and Permissions in a Web App"
+      ] 
+    },
+    { 
+      title: "Database Management with Django", 
+      items: [
+        "Using PostgreSQL with Django",
+        "Working with Complex Queries and Relationships",
+        "Database Migrations and Schema Changes in Django",
+        "Handling Large Datasets and Optimizing Queries",
+        "Hands-On: Building a Data-Driven Web App with Complex Models"
+      ] 
+    },
+    { 
+      title: "Testing in Python Web Applications", 
+      items: [
+        "Unit Testing in Flask and Django",
+        "Setting Up Test Frameworks (pytest, unittest)",
+        "Testing Flask and Django APIs",
+        "Mocking External API Calls in Tests",
+        "Hands-On: Writing Unit and Integration Tests for a Web App"
+      ] 
+    },
+    { 
+      title: "Web App Deployment and Performance Optimization", 
+      items: [
+        "Deploying Flask and Django Apps to Heroku",
+        "Configuring a Production Environment (Gunicorn, Nginx, Docker)",
+        "Load Testing and Performance Optimization",
+        "CI/CD (Continuous Integration/Continuous Deployment) Setup",
+        "Hands-On: Deploying a Web Application to Production"
+      ] 
+    },
+    { 
+      title: "Advanced Topics: WebSockets, Caching, and Asynchronous Tasks", 
+      items: [
+        "Using WebSockets in Flask and Django for Real-Time Apps",
+        "Caching Techniques with Flask and Django",
+        "Integrating Asynchronous Tasks with Celery and Redis",
+        "Optimizing Web Apps for Scalability",
+        "Hands-On: Building a Real-Time Chat Application with WebSockets"
+      ] 
+    },
+    { 
+      title: "Final Project and Certification", 
+      items: [
+        "Capstone Project: Full-Stack Web Application (Flask and Django)",
+        "Integrating Frontend (HTML, CSS, JavaScript) with Backend (Flask/Django)",
+        "Final Review and Exam",
+        "Certification of Completion"
+      ] 
+    }
+  ]
+        },
+        price: { "3month": "80,000", "6month": "150,000" }
+      },
+      "ui-ux-design": {
+        title: "UI/UX Design",
+        description: "Learn to design user-friendly interfaces and improve user experience. This course covers the essential principles of UI/UX design, helping you create aesthetically pleasing, functional, and responsive websites and applications. You'll explore design processes from wireframing to prototyping and user testing, learning how to craft interfaces that are both beautiful and intuitive for users.",
+        keywords: "UI, UX, Web Design, User Research, Prototyping, User Interface Design, User Experience Design, Responsive Design, Wireframing, Interaction Design, Visual Design, Usability Testing, Design Tools, Sketch, Adobe XD, Figma, Design Thinking, Mobile App Design, Website Redesign, User Feedback, Design Process, Interface Prototyping, User-Centered Design, UI Trends, UX Research, UX Strategies, Accessibility in Design, Mobile First Design, Interaction Patterns, Design for Developers, User Flow Design",
+        image: "images/uiux.jpeg",
+        outlines: {
+  "3month": [
+    { 
+      title: "Introduction to UI/UX Design", 
+      items: [
+        "What is UI/UX Design?", 
+        "The Difference Between UI and UX", 
+        "Principles of User-Centered Design", 
+        "Understanding the Design Process"
+      ] 
+    },
+    { 
+      title: "User Research and Personas", 
+      items: [
+        "Conducting User Research", 
+        "Creating User Personas", 
+        "Understanding User Needs", 
+        "Gathering Insights through Interviews and Surveys"
+      ] 
+    },
+    { 
+      title: "Wireframing and Prototyping", 
+      items: [
+        "Introduction to Wireframes", 
+        "Building Low-Fidelity Wireframes", 
+        "Tools for Prototyping Figma and Sketch", 
+        "Creating Interactive Prototypes"
+      ] 
+    },
+    { 
+      title: "UI Design Basics", 
+      items: [
+        "Typography, Color Theory, and Layout", 
+        "Using Grids and Alignments", 
+        "Building Consistent UI Elements", 
+        "Designing Buttons, Inputs, and Icons"
+      ] 
+    },
+    { 
+      title: "Usability and Testing", 
+      items: [
+        "Conducting Usability Tests", 
+        "User Testing Techniques (A/B Testing, Remote Testing)", 
+        "Analyzing Results and Iteration", 
+        "Improving the Design Based on Feedback"
+      ] 
+    },
+    { 
+      title: "Final Project and Portfolio Development", 
+      items: [
+        "Designing a Full Web App or Mobile App", 
+        "Creating a Design System", 
+        "Portfolio Development and Presentation", 
+        "Final Review and Certification"
+      ] 
+    }
+  ],
+  "6month": [
+    { 
+      title: "Advanced UI/UX Design Principles", 
+      items: [
+        "Deep Dive into UI/UX Design Thinking", 
+        "Designing for Mobile, Tablet, and Desktop", 
+        "Creating Responsive Designs", 
+        "Advanced User-Centered Design Principles"
+      ] 
+    },
+    { 
+      title: "Advanced User Research and Interaction Design", 
+      items: [
+        "Advanced Research Methods", 
+        "User Journey Mapping", 
+        "Conducting Focus Groups", 
+        "Understanding User Behaviors and Context"
+      ] 
+    },
+    { 
+      title: "Wireframing and Interactive Prototypes", 
+      items: [
+        "Advanced Wireframing Techniques", 
+        "Interactive Prototyping in Figma and Sketch", 
+        "Creating High-Fidelity Prototypes", 
+        "User Flows and Storyboarding"
+      ] 
+    },
+    { 
+      title: "Design Systems and Component Libraries", 
+      items: [
+        "Building a Design System", 
+        "Creating Reusable UI Components", 
+        "Designing Scalable Interfaces", 
+        "Using Design Libraries and UI Kits"
+      ] 
+    },
+    { 
+      title: "Interaction Design and Microinteractions", 
+      items: [
+        "Understanding Microinteractions", 
+        "Animation and Transitions in UI", 
+        "Creating Delightful User Interactions", 
+        "Prototyping Microinteractions"
+      ] 
+    },
+    { 
+      title: "Usability Testing and Analytics", 
+      items: [
+        "Advanced Usability Testing Techniques", 
+        "Eye-Tracking and Heatmaps", 
+        "Analyzing Analytics for UX Improvements", 
+        "Iterating and Refining Designs Based on Data"
+      ] 
+    },
+    { 
+      title: "UX Writing and Content Strategy", 
+      items: [
+        "The Role of UX Writing in Design", 
+        "Writing for Microcopy, Labels, and Instructions", 
+        "Creating a Consistent Tone and Voice", 
+        "Content Strategy in UX Design"
+      ] 
+    },
+    { 
+      title: "Collaboration and Working with Developers", 
+      items: [
+        "Collaborating with Developers on Design Systems", 
+        "Handing Over Designs to Development", 
+        "Tools for Developer Collaboration (Zeplin, Figma)", 
+        "Design Handoff Best Practices"
+      ] 
+    },
+    { 
+      title: "Final Project and Portfolio Development", 
+      items: [
+        "Designing a Full Web or Mobile Application with Advanced Features", 
+        "Creating a Comprehensive Design System", 
+        "Presenting Your Work to Clients and Teams", 
+        "Building and Finalizing Your Portfolio"
+      ] 
+    }
+  ]
+        },
+        price: { "3month": "65,000", "6month": "110,000" }
+      },
+      "cybersecurity": {
+        title: "Cybersecurity",
+        description: "This course provides a foundational understanding of cybersecurity principles and practices. You’ll learn how to protect networks, systems, and data from cyber threats. Topics include setting up firewalls, understanding encryption methods, and identifying potential vulnerabilities. By the end of the course, you’ll have the knowledge needed to implement basic security measures and understand the essentials of ethical hacking and network protection.",
+        keywords: "Cybersecurity, Hacking, Ethical Hacking, Penetration Testing, Network Security, Information Security, Cybersecurity Services, Ethical Hacking in Uyo, Ethical Hacking in Akwa Ibom, Cybersecurity in Uyo, Cybersecurity in Akwa Ibom, Network Security Services, Vulnerability Assessment, Cyber Threats, Cyber Defense, Data Protection, Malware Analysis, Cyber Attack Prevention, Phishing Protection, Incident Response, Cybersecurity Training, Ethical Hacking Services, Penetration Testing Services, Security Audits, Security Awareness, Digital Forensics, Cybersecurity Consulting, Firewall Protection, Secure Network Configuration, Security Tools, Penetration Testing in Uyo, Penetration Testing in Akwa Ibom, Cybersecurity Certification, Security Risk Management, Cloud Security",
+        image: "images/cyber.jpeg",
+        outlines: {
+          "3month": [
+    { 
+      title: "Introduction to Cybersecurity", 
+      items: [
+        "Overview of Cybersecurity", 
+        "Key Concepts in Cybersecurity", 
+        "Types of Cyber Threats (Malware, Phishing, etc.)", 
+        "Basic Cybersecurity Best Practices"
+      ] 
+    },
+    { 
+      title: "Networking Basics for Cybersecurity", 
+      items: [
+        "Introduction to Networking (TCP/IP, OSI Model)", 
+        "Firewalls and Network Security", 
+        "Understanding Routers, Switches, and VPNs", 
+        "Securing Network Devices"
+      ] 
+    },
+    { 
+      title: "System and Application Security", 
+      items: [
+        "Operating System Security (Windows/Linux)", 
+        "Application Security Basics", 
+        "Security Configurations and Hardening Systems", 
+        "Securing Web Servers and Databases"
+      ] 
+    },
+    { 
+      title: "Ethical Hacking and Penetration Testing", 
+      items: [
+        "Introduction to Ethical Hacking", 
+        "Penetration Testing Phases (Recon, Scanning, Exploitation)", 
+        "Practical Hands-on Hacking Exercises", 
+        "Using Tools like Kali Linux, Metasploit, and Burp Suite"
+      ] 
+    },
+    { 
+      title: "Incident Response and Monitoring", 
+      items: [
+        "Incident Response Life Cycle", 
+        "Setting Up a SIEM (Security Information and Event Management)", 
+        "Monitoring Network Traffic and Identifying Anomalies", 
+        "Handling Data Breaches and Forensics"
+      ] 
+    },
+    { 
+      title: "Final Project: Securing a Small Network", 
+      items: [
+        "Planning a Secure Network Architecture", 
+        "Implementing Firewalls and VPNs", 
+        "Conducting Penetration Testing", 
+        "Final Network Security Assessment"
+      ] 
+    }
+  ],
+  "6month": [
+    { 
+      title: "Advanced Cybersecurity Concepts", 
+      items: [
+        "Advanced Types of Cyber Threats (Ransomware, Advanced Persistent Threats)", 
+        "Security in Cloud Computing", 
+        "Cryptography and Encryption Techniques", 
+        "Security Protocols (SSL/TLS, IPsec, etc.)"
+      ] 
+    },
+    { 
+      title: "Network Security and Defense", 
+      items: [
+        "Advanced Networking Concepts (Subnetting, VLANs, etc.)", 
+        "Advanced Firewall Configuration and Monitoring", 
+        "Intrusion Detection and Prevention Systems (IDS/IPS)", 
+        "Network Traffic Analysis and Packet Sniffing"
+      ] 
+    },
+    { 
+      title: "Advanced Ethical Hacking and Penetration Testing", 
+      items: [
+        "Advanced Hacking Techniques (SQL Injection, XSS, CSRF)", 
+        "Using Metasploit for Exploitation", 
+        "Post-Exploitation and Maintaining Access", 
+        "Conducting a Full Penetration Test (from Recon to Reporting)"
+      ] 
+    },
+    { 
+      title: "Cloud Security and Compliance", 
+      items: [
+        "Cloud Security Concepts", 
+        "Securing Cloud Platforms (AWS, Azure, GCP)", 
+        "Compliance Frameworks (GDPR, HIPAA, PCI-DSS)", 
+        "Tools for Cloud Security and Monitoring"
+      ] 
+    },
+    { 
+      title: "Advanced Incident Response and Forensics", 
+      items: [
+        "Advanced Incident Handling Procedures", 
+        "Digital Forensics Tools and Techniques", 
+        "Log Analysis and Forensic Data Collection", 
+        "Post-Incident Reporting and Remediation"
+      ] 
+    },
+    { 
+      title: "Security in IoT and Mobile Devices", 
+      items: [
+        "Securing IoT Devices and Networks", 
+        "Mobile Device Security", 
+        "BYOD (Bring Your Own Device) Security", 
+        "Ethical Hacking of IoT and Mobile Devices"
+      ] 
+    },
+    { 
+      title: "Final Project: Securing an Enterprise Network", 
+      items: [
+        "Designing a Secure Enterprise Network Architecture", 
+        "Implementing Network Defense Mechanisms", 
+        "Conducting Full Penetration Testing and Vulnerability Assessment", 
+        "Providing Final Report and Remediation Plan"
+      ] 
+    }
+  ]
+        },
+        price: { "3month": "120,000", "6month": "200,000" }
+      },
+      "digital-marketing": {
+        title: "Digital Marketing",
+        description: "This course covers the core areas of digital marketing, including SEO, social media marketing, content creation, and online advertising. You will learn how to create and execute marketing campaigns, optimize websites for search engines, and manage paid ad campaigns on platforms like Google and Facebook. Practical experience will include live campaigns and content creation, helping you gain the skills needed to drive traffic and grow an online business.",
+        keywords: "SEO, Content Marketing, Social Media, PPC, Digital Marketing, Digital Marketing in Uyo, Digital Marketing in Akwa Ibom, Digital Marketing Services, SEO Services in Uyo, SEO Services in Akwa Ibom, Social Media Marketing in Uyo, Social Media Marketing in Akwa Ibom, PPC Advertising in Uyo, PPC Advertising in Akwa Ibom, Digital Marketing Agency in Uyo, Digital Marketing Agency in Akwa Ibom, Online Marketing, Google Ads Management, Facebook Ads, Instagram Marketing, Digital Strategy, Web Analytics, Content Creation, Brand Awareness, Email Marketing, Lead Generation, Conversion Optimization, Mobile Marketing, Marketing Automation, Local SEO in Uyo, Local SEO in Akwa Ibom, Social Media Ads, Influencer Marketing, Video Marketing, Website Optimization, Search Engine Marketing, Multibest ICT Solutions, Multibest ICT Services, Multibest ICT in Uyo, Multibest ICT in Akwa Ibom, Multibest Digital Solutions",
+        image: "images/digital.jpeg",
+        outlines: {
+          "3month": [
+    { 
+      title: "Introduction to Digital Marketing", 
+      items: [
+        "Overview of Digital Marketing", 
+        "Key Digital Marketing Channels", 
+        "Importance of Digital Marketing in Business",
+        "Types of Digital Marketing (SEO, SEM, Social Media, Email)"
+      ] 
+    },
+    { 
+      title: "Search Engine Optimization (SEO)", 
+      items: [
+        "Introduction to SEO", 
+        "On-page and Off-page Optimization", 
+        "Keyword Research and Tools (Google Keyword Planner, Ubersuggest)",
+        "Practical SEO Implementation (Optimizing a Website)"
+      ] 
+    },
+    { 
+      title: "Social Media Marketing (SMM)", 
+      items: [
+        "Introduction to Social Media Platforms (Facebook, Instagram, Twitter, LinkedIn)", 
+        "Creating a Social Media Strategy", 
+        "Creating Engaging Social Media Content", 
+        "Scheduling and Managing Posts (Using Tools like Hootsuite)"
+      ] 
+    },
+    { 
+      title: "Email Marketing", 
+      items: [
+        "Building and Growing an Email List", 
+        "Crafting Effective Email Campaigns", 
+        "Analyzing Email Marketing Metrics", 
+        "Practical Email Campaign Setup (Mailchimp, SendGrid)"
+      ] 
+    },
+    { 
+      title: "Google Ads and Paid Marketing", 
+      items: [
+        "Introduction to Google Ads", 
+        "Setting up Google Ads Campaigns", 
+        "Keyword Targeting and Ad Budgeting", 
+        "Practical Google Ads Campaign Management"
+      ] 
+    },
+    { 
+      title: "Facebook Ads and Blueprint Certification", 
+      items: [
+        "Overview of Facebook Ads Manager", 
+        "Creating Effective Facebook Ads", 
+        "Targeting the Right Audience", 
+        "Practical Facebook Ads Campaign Setup", 
+        "Facebook Blueprint Certification Exam Preparation"
+      ] 
+    },
+    { 
+      title: "Google Digital Garage and Certification", 
+      items: [
+        "Google Digital Garage Overview", 
+        "Google Analytics Basics", 
+        "Google Ads Campaign Setup", 
+        "Google Certification Exam Preparation"
+      ] 
+    },
+    { 
+      title: "Final Project: Digital Marketing Campaign", 
+      items: [
+        "Planning a Complete Digital Marketing Campaign", 
+        "Implementing SEO, SMM, and Google Ads", 
+        "Campaign Performance Analysis", 
+        "Final Campaign Report and Recommendations"
+      ] 
+    }
+  ],
+         "6month": [
+    { 
+      title: "Advanced Digital Marketing Strategy", 
+      items: [
+        "Understanding Digital Marketing Analytics", 
+        "Developing an Advanced Digital Marketing Strategy", 
+        "Analyzing Market Trends and Competitor Analysis", 
+        "Creating Effective Customer Personas"
+      ] 
+    },
+    { 
+      title: "Advanced Search Engine Optimization (SEO)", 
+      items: [
+        "Technical SEO (Site Speed, Mobile Optimization, Crawling)", 
+        "Advanced Keyword Research and Competitor Analysis", 
+        "Link Building Strategies", 
+        "Practical SEO Optimization on Complex Websites"
+      ] 
+    },
+    { 
+      title: "Content Marketing", 
+      items: [
+        "Content Creation and Strategy", 
+        "Storytelling and Brand Voice", 
+        "SEO Content Writing", 
+        "Practical Content Creation and Blog Writing"
+      ] 
+    },
+    { 
+      title: "Paid Advertising Mastery (Google Ads, Facebook Ads, and LinkedIn Ads)", 
+      items: [
+        "Advanced Google Ads Campaigns (Display, Remarketing, Shopping Ads)", 
+        "Advanced Facebook Ads (Lookalike Audiences, Retargeting)", 
+        "LinkedIn Ads and Campaign Strategies", 
+        "Practical Ad Campaign Management"
+      ] 
+    },
+    { 
+      title: "Conversion Rate Optimization (CRO)", 
+      items: [
+        "Introduction to CRO", 
+        "Optimizing Landing Pages", 
+        "A/B Testing and Multivariate Testing", 
+        "Analyzing Data and Improving Conversion Rates"
+      ] 
+    },
+    { 
+      title: "Social Media Marketing Advanced Techniques", 
+      items: [
+        "Advanced Social Media Strategies", 
+        "Influencer Marketing and Collaborations", 
+        "Social Media Analytics and Tools", 
+        "Practical Social Media Campaign Setup"
+      ] 
+    },
+    { 
+      title: "Google Analytics and Data Analysis", 
+      items: [
+        "Advanced Google Analytics Setup", 
+        "Tracking Conversions and E-commerce Analytics", 
+        "Analyzing and Reporting Data", 
+        "Google Analytics Certification Exam Preparation"
+      ] 
+    },
+    { 
+      title: "Google Digital Garage and Facebook Blueprint Certification", 
+      items: [
+        "Advanced Google Ads Campaigns and Strategies", 
+        "Facebook Ads Optimization", 
+        "Certification Exam Preparation for Google and Facebook"
+      ] 
+    },
+    { 
+      title: "Final Project: Multi-Channel Digital Marketing Campaign", 
+      items: [
+        "Developing a Multi-Channel Marketing Strategy (SEO, SMM, Email, Ads)", 
+        "Campaign Implementation and Optimization", 
+        "Analysis and Reporting on Campaign Performance", 
+        "Final Project Presentation and Recommendations"
+      ] 
+    }
+  ]
+        },
+        price: { "3month": "60,000", "6month": "105,000" }
+      }
+    };
+
+    function getQueryParam(name) {
+      const urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name);
+    }
+
+    function loadCourse(courseKey, duration = "3month") {
+      const course = courseData[courseKey];
+      if (!course) return;
+
+      document.getElementById("course-title").textContent = course.title;
+      document.getElementById("course-description").textContent = course.description;
+      document.getElementById("course-image").src = course.image;
+
+      // Set course duration and price
+      document.getElementById("course-duration").textContent = duration === "6month" ? "6 months" : "3 months";
+      document.getElementById("course-price").textContent = course.price[duration];
+
+      // Update outline
+      const courseOutline = document.getElementById("course-outline");
+      courseOutline.innerHTML = "";
+      const outline = course.outlines[duration];
+      outline.forEach((section, index) => {
+        const sectionId = "section-" + index;
+        let itemsHtml = "";
+        section.items.forEach(item => {
+          itemsHtml += `<li>${item}</li>`;
+        });
+
+        const accordionItem = `
+          <div class="accordion-item accordion23">
+            <h2 class="accordion-header" id="${sectionId}">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-${sectionId}" aria-expanded="true" aria-controls="collapse-${sectionId}">
+                ${section.title}
+              </button>
+            </h2>
+            <div id="collapse-${sectionId}" class="accordion-collapse collapse" aria-labelledby="${sectionId}" data-bs-parent="#course-outline">
+              <div class="accordion-body">
+                <ul>${itemsHtml}</ul>
+              </div>
+            </div>
+          </div>`;
+        courseOutline.innerHTML += accordionItem;
+      });
+    }
+
+    // Set initial course based on URL parameter
+    const courseKey = getQueryParam('course') || 'web-development';
+    loadCourse(courseKey);
+
+    // Duration switch functionality
+    document.getElementById("durationSwitch").addEventListener("change", function () {
+      const newDuration = this.checked ? "6month" : "3month";
+      loadCourse(courseKey, newDuration);
+    });
+  </script>
+  <script>
+    // Show the modal when the page loads
+    window.onload = function() {
+        var discountModal = new bootstrap.Modal(document.getElementById('discountModal'), {
+            keyboard: false
+        });
+        discountModal.show();
+    };
+     // Change icon rotation on toggle
+     const accordionButtons = document.querySelectorAll('.custom-accordion-button');
+    accordionButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const icon = button.querySelector('.accordion-icon');
+            icon.classList.toggle('rotate');
+        });
+    });
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
