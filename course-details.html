@@ -314,7 +314,7 @@ padding: 10px 20px;
 
         .collapse.show .faq-answer {
             opacity: 1;
-            max-height: 200px;
+            max-height: 250px;
         }
 
         .faq-answer p {
@@ -748,7 +748,7 @@ padding: 10px 20px;
                 <!-- Registration Form -->
                 <h5 class="modal-title" id="registrationModalLabel">Course Registration</h5>
 
-                <form id="registrationForm" action="#" method="POST" onsubmit="return validateForm()">
+                <form id="registrationForm"  onsubmit="return validateForm()" netlify>
                     <div class="mb-3">
                         <label for="fullName" class="form-label">Full Name</label>
                         <input type="text" class="form-control custom-input" id="fullName" name="fullName" placeholder="Enter your full name" required>
