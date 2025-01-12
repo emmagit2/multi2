@@ -425,6 +425,15 @@ padding: 10px 20px;
   }
 
 }
+custom-btn{
+  transition: all 0.4s ease;
+}
+custom-btn:hover{
+  background-color: white;
+  border: tomato;
+  color: tomato;
+
+}
         </style>
 </head>
 <body>
@@ -775,8 +784,8 @@ padding: 10px 20px;
                   <!-- Phone Number -->
                   <div class="mb-3">
                       <label for="phone" class="form-label">Phone Number</label>
-                      <input type="tel" class="form-control custom-input" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
-                      <div class="invalid-feedback">Please enter a valid phone number (10 digits).</div>
+                      <input type="tel" class="form-control custom-input" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{11}" required>
+                      <div class="invalid-feedback">Please enter a valid phone number (11 digits).</div>
                   </div>
               
                   <!-- Time Schedule -->
